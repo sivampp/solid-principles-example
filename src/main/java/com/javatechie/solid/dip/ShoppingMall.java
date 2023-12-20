@@ -19,5 +19,6 @@ public class ShoppingMall {
         BankCard bankCard=new CreditCard();
         ShoppingMall shoppingMall=new ShoppingMall(bankCard);
         shoppingMall.doPurchaseSomething(5000);
+        System.out.println("Hi Paramasivam you made payment of 5000 from your CreditCard");
     }
 }
